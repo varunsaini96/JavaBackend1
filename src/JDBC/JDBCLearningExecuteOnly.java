@@ -7,7 +7,7 @@ public class JDBCLearningExecuteOnly {
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url = "jdbc:mysql://localhost:3306/jdbclearning";
         String user = "root";
-        String password = "Alex@3215";
+        String password = "12345";
 
         Connection connection = DriverManager.getConnection(url,user,password);
 
