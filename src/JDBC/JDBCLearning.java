@@ -14,7 +14,7 @@ public class JDBCLearning {
 
         String url = "jdbc:mysql://localhost:3306/jdbclearning";
         String user = "root";
-        String password = "Alex@3215";
+        String password = "12345";
         Connection connect = DriverManager.getConnection(url, user, password);
 
         //Creating Statement
